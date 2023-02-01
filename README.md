@@ -1,9 +1,9 @@
 # ch4t
-A shitty socket-based communication that uses a server to establish the connection between two clients, which have to be using the same key for message encryption.
+A shitty socket-based communication that uses a server to establish the connection between two clients, which have to be using the same key for message encryption with SHA-256.
 
 
-USAGE: 
+Change the IP, PORT in the code of both sides.
 
-Change the ip and port in the files. Also, check the encryption key.
+Check for the encryption key.
 
 The server-side script must be running and then two clients should connect using the client-side version.
